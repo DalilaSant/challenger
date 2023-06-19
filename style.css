@@ -1,0 +1,199 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #109B97;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logooracle {
+    width:10%
+}
+
+.instalogo{
+    width: 23%;
+   
+}
+
+.linklogo{
+    width: 40%;
+}
+
+.gitlogo{
+    width: 23%;
+}
+
+nav{
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    
+}
+
+nav li{
+    display: inline; /*la lista no ocupa el 100%del contenido*/
+    margin: 0 0 0 3px;
+
+}
+
+
+
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+main{
+    background:#48E3D7;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 0;
+    
+}
+
+section{
+    text-align: center;
+    width: 940px;
+    /*background: #65C4C0 ;*/
+    margin: 0 auto;
+    padding: 3em;
+   
+   
+}
+
+textarea:hover{
+    border-color: #13E442;
+}
+
+::placeholder{ color: #31807D;}
+
+
+
+.informacion{
+    font-size: 18px;
+    color: #31807D;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/istockphoto-1202532453-612x612.jpg);
+    padding: 30px;
+    
+    
+}
+
+.crisds{
+    border-radius: 3px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.text-area{ 
+    height: 200px;
+    margin-top: 0;
+    padding: 2px;
+    text-transform: lowercase; /*minusculas*/
+}
+
+::placeholder{ color: #0A3871;}
+.text-area:focus{ /*ya no aparece el recuadro*/
+    outline: none;
+}
+
+
+.mensaje{
+    background: white;
+    height: 200px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0px;
+    position: relative;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    
+    display: flex;
+    margin-top: 18px;
+
+}
+
+
+
+.btn-desencriptar{
+    background: #31807D;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 60px;
+    width: 150px;
+    transition: 1s background;
+}
+
+.btn-encriptar{
+    background-color: #79A783;
+    border: 1px solid #0A3871;
+    border-radius:  10px;
+    color: white;
+    cursor: pointer;
+    height:  50px;
+    margin-left: 110px;
+    width: 150px;
+    transition: 1s background;
+}
+
+.btn-encriptar:hover{
+    background: #618A6A;
+}
+
+.btn-desencriptar:hover{
+    background: #2A6A68;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    background: #CCDFF7;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 0px;
+    margin-top:  43px;
+    position: realtive;
+    width: 360px;
+    transition: 1s background;
+}
+
+.copiar:hover{
+    background: #B6D1F3;
+}
+
+.informacion{
+    color: #494047;
+    font-size: 18px;
+}
+
